@@ -12,7 +12,7 @@ class ImageCollectionViewCell: UICollectionViewCell {
     
     override func prepareForReuse() {
         super.prepareForReuse()
-        imageView.image = #imageLiteral(resourceName: "MarsPlaceholder")
+        imageView.image = UIImage(named: "MarsPlaceholder")
     }
     
     // MARK: Properties
