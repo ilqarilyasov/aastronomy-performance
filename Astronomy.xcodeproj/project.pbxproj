@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82427A222225B50800CE1523 /* FilterPhotoOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82427A212225B50800CE1523 /* FilterPhotoOperation.swift */; };
 		9D6A752F2147A12500A4A0C3 /* Image+Filtering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A752E2147A12500A4A0C3 /* Image+Filtering.swift */; };
 		9DBD20092140D1300047905E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBD20082140D1300047905E /* AppDelegate.swift */; };
 		9DBD20102140D1300047905E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DBD200F2140D1300047905E /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		82427A212225B50800CE1523 /* FilterPhotoOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPhotoOperation.swift; sourceTree = "<group>"; };
 		9D6A752E2147A12500A4A0C3 /* Image+Filtering.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+Filtering.swift"; sourceTree = "<group>"; };
 		9DBD20052140D1300047905E /* Astronomy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Astronomy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DBD20082140D1300047905E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 			children = (
 				9DBD20362140E46E0047905E /* ConcurrentOperation.swift */,
 				9DBD20372140E46E0047905E /* FetchPhotoOperation.swift */,
+				82427A212225B50800CE1523 /* FilterPhotoOperation.swift */,
 			);
 			path = Operations;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DBD20382140E46E0047905E /* ConcurrentOperation.swift in Sources */,
+				82427A222225B50800CE1523 /* FilterPhotoOperation.swift in Sources */,
 				9DBD20322140DE100047905E /* URL+Secure.swift in Sources */,
 				9DBD201C2140D19D0047905E /* ImageCollectionViewCell.swift in Sources */,
 				9DBD202D2140D38C0047905E /* Cache.swift in Sources */,
@@ -377,7 +381,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VXUQXR6S56;
+				DEVELOPMENT_TEAM = KK26JKU2YA;
 				INFOPLIST_FILE = "$(SRCROOT)/Astronomy/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -395,7 +399,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VXUQXR6S56;
+				DEVELOPMENT_TEAM = KK26JKU2YA;
 				INFOPLIST_FILE = "$(SRCROOT)/Astronomy/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
